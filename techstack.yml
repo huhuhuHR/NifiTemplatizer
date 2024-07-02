@@ -1,0 +1,303 @@
+repo_name: huhuhuHR/NifiTemplatizer
+report_id: e210f8c5bff0d2379dbf7c2bff6f6c5e
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:20+00:00'
+requested_by: profour
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer
+  detection_source: Repo Metadata
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.3
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.2
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9546
+    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11112
+    cve_url: https://github.com/advisories/GHSA-58pp-9c76-5625
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11619
+    cve_url: https://github.com/advisories/GHSA-27xj-rqx5-2255
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11113
+    cve_url: https://github.com/advisories/GHSA-9vvp-fxw6-jcxr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11111
+    cve_url: https://github.com/advisories/GHSA-v3xw-c963-f5hc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10968
+    cve_url: https://github.com/advisories/GHSA-rf6r-2c4q-2vwg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10969
+    cve_url: https://github.com/advisories/GHSA-758m-v56v-grj4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11620
+    cve_url: https://github.com/advisories/GHSA-h4rc-386g-6m85
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Serialization gadget exploit in jackson-databind
+    cve_id: CVE-2020-35728
+    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
+    detected_date: Nov 22
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Code Injection in jackson-databind
+    cve_id: CVE-2020-24616
+    cve_url: https://github.com/advisories/GHSA-h3cw-g4mq-c5x2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35490
+    cve_url: https://github.com/advisories/GHSA-wh8g-3j2c-rqj5
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35491
+    cve_url: https://github.com/advisories/GHSA-r3gr-cxrf-hg25
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10672
+    cve_url: https://github.com/advisories/GHSA-95cm-88f5-f2c7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14195
+    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14061
+    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14062
+    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14060
+    cve_url: https://github.com/advisories/GHSA-j823-4qch-3rgm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  description: Data format extension for Jackson
+  version: 2.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  version: 2.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
+- name: com.squareup.okhttp:okhttp
+  description: An HTTP client for Android, Kotlin, and Java
+  version: 2.7.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-09 05:43:10.000000000 Z
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  version: '1.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-09 05:43:10.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: 2.10.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/NifiTemplatizer/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Profour
+  last_updated_on: 2019-10-06 22:47:15.000000000 Z
